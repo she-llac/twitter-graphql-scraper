@@ -1,0 +1,17 @@
+{
+  "name": "twitter-graphql-scraper",
+  "version": "1.0.0",
+  "description": "Scrape Twitter/X GraphQL endpoint IDs from the web client",
+  "type": "module",
+  "scripts": {
+    "scrape": "bun run scrape.ts"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
